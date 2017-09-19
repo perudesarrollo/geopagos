@@ -1,0 +1,6 @@
+httpd:
+  build: .
+  ports:
+    - 8280:80
+  volumes:
+    - ./:/var/www/html
